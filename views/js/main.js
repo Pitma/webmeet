@@ -47,7 +47,7 @@ if (!room) {
 ****************************************************************************/
 
 // Connect to the signaling server
-var socket = io.connect('http://meetme-webmeet.7e14.starter-us-west-2.openshiftapps.com');
+var socket = io.connect('http://meetme-webmeet.7e14.starter-us-west-2.openshiftapps.com:8080');
 
 socket.on('ipaddr', function(ipaddr) {
   console.log('Server IP address is: ' + ipaddr);
