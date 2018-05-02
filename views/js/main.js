@@ -6,7 +6,7 @@
 
 var configuration = {
   'iceServers': [{
-    'urls': 'stun4.l.google.com:19302'
+    'urls': 'stun.xten.com'
   }]
 };
 
