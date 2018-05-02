@@ -47,7 +47,7 @@ if (!room) {
 ****************************************************************************/
 
 // Connect to the signaling server
-var socket = io.connect('https://pitma.diphda.uberspace.de:65396');
+var socket = io.connect('http://meetme-webmeet.7e14.starter-us-west-2.openshiftapps.com');
 
 socket.on('ipaddr', function(ipaddr) {
   console.log('Server IP address is: ' + ipaddr);
