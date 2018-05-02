@@ -5,7 +5,7 @@ var nodeStatic = require('node-static');
 var http = require('http');
 var socketIO = require('socket.io');
 
-var fileServer = new(nodeStatic.Server)('/home/pitma/html/webmeet');
+var fileServer = new(nodeStatic.Server)('/views');
 var app = http.createServer(function(req, res) {
   fileServer.serve(req, res);
 }).listen(65396,function(){
