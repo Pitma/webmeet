@@ -4,13 +4,13 @@
 * Initial setup
 ****************************************************************************/
 
-// var configuration = {
-//   'iceServers': [{
-//     'urls': 'stun:stun.l.google.com:19302'
-//   }]
-// };
+var configuration = {
+  'iceServers': [{
+    'urls': 'stun:stun.l.google.com:19302'
+  }]
+};
 
-var configuration = null;
+//var configuration = null;
 
 // var roomURL = document.getElementById('url');
 var video = document.querySelector('video');
