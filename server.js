@@ -8,7 +8,7 @@ var socketIO = require('socket.io');
 var fileServer = new(nodeStatic.Server)('/views');
 var app = http.createServer(function(req, res) {
   fileServer.serve(req, res);
-}).listen(65396,function(){
+}).listen(8080,function(){
   console.log('listening on *:65396');
 });
 
